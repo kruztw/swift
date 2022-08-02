@@ -102,3 +102,7 @@ let var22: Int? = nil
 let var23: Int = 100
 let var24 = var22 ?? var23 // var24 == var23 if var22 == nil else var23
 print(var24)
+
+
+// get variable type
+print(type(of: var24))
