@@ -106,3 +106,7 @@ print(var24)
 
 // get variable type
 print(type(of: var24))
+
+
+// pointer
+// TBD
