@@ -4,8 +4,11 @@ func add(a: Int, b: Int) -> Int {
 
 print(add(a:1, b:2))
 
+func add2(_ a: Int, b: Int) -> Int {
+    return a + b
+}
 
-
+print(add2(1, b:2))
 
 func sub(_ a: Int, _ b: Int) -> Int {
     return a - b
