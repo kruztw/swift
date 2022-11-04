@@ -2,6 +2,11 @@ enum Items {
    case A(price: Int)
    case B(color: String)
    case C
+
+   init(msg: String?) {
+	print(msg ?? "")
+	self = .A(price: 100)
+   }
 }
 
 func foo(item name: Items) {
@@ -21,3 +26,4 @@ foo(item: .A(price: 100))
 foo(item: .A(price: 1))
 foo(item: .B(color: "blue"))
 foo(item: .C)
+foo(item: Items(msg: "\nhello world"))
