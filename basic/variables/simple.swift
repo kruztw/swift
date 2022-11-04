@@ -107,6 +107,20 @@ print(var24)
 // get variable type
 print(type(of: var24))
 
+// Array
+var var25: Array<Int> = [1]
+var25.append(2)
+var25 += [3, 4]
+var25.removeLast()
+var25.reverse()
+print(var25, var25.count)
+
+
+// Any
+var var26: Any = "var26"
+let var27 = var26 as? String ?? ""
+print(var26)
+print(var27)
 
 // pointer
 // TBD
